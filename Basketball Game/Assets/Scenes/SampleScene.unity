@@ -364,6 +364,7 @@ GameObject:
   - component: {fileID: 607492199}
   - component: {fileID: 607492198}
   - component: {fileID: 607492201}
+  - component: {fileID: 607492202}
   m_Layer: 5
   m_Name: Ball
   m_TagString: Untagged
@@ -405,7 +406,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 100
+  m_GravityScale: 120
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -464,6 +465,18 @@ CircleCollider2D:
   m_Offset: {x: 0.48670578, y: 0.50738525}
   serializedVersion: 2
   m_Radius: 47.239258
+--- !u!114 &607492202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607492196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0ec29cb52a84eef9ad2771c90a3654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1354054150
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,7 +714,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 572.8699, y: 0}
+  m_AnchoredPosition: {x: 572.87, y: -13}
   m_SizeDelta: {x: 774.25555, y: 867.47314}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1991821389
