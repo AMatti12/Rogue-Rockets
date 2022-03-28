@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class BallJump : MonoBehaviour
 {
-    private BallJump_Base ballBase;
-    private RigidBody2D rigidBody2D
+    //private BallJump_Base ballBase;
+    private Rigidbody2D rb;
     // Start is called before the first frame update
     private void Awake()
     {
-        ballBase = gameObject.GetComponent<BallJump_Base>();
+        rb = transform.GetComponent<Rigidbody2D>();
     }
     void Start()
     {
@@ -21,8 +21,8 @@ public class BallJump : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            float jumpVelocity = 100f;
-            rigidBody2D.velocity = Vector2.ip * jumpVelocity
+            float jumpVelocity = 500f;
+            rb.velocity = Vector2.up * jumpVelocity;
         }
     }
 }
