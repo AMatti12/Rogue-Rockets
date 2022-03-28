@@ -365,6 +365,7 @@ GameObject:
   - component: {fileID: 607492198}
   - component: {fileID: 607492201}
   - component: {fileID: 607492202}
+  - component: {fileID: 607492203}
   m_Layer: 5
   m_Name: Ball
   m_TagString: Untagged
@@ -472,9 +473,21 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 607492196}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a8b1faf1ba3248bba37e54f5c6a9a54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &607492203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 607492196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802d1c2c673244d99962cb6afad7b5b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1354054150
@@ -627,7 +640,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.5565796, y: 1.0744171}
