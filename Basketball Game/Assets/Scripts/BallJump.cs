@@ -22,7 +22,12 @@ public class BallJump : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             float jumpVelocity = 500f;
-            rb.velocity = Vector2.up * jumpVelocity;
+            try {
+                rb.velocity = Vector2.up * jumpVelocity;
+                Debug.Log("Try successful");
+            } catch {
+                Debug.Log("Failed");
+            }
 
             //transform.Translate(0,0,2);
             

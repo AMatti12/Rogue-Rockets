@@ -22,6 +22,13 @@ public class BallBounce : MonoBehaviour
     {
         var speed = LastVelocity.magnitude;
         var direction = Vector3.Reflect(LastVelocity.normalized, collision.contacts[0].normal);
-        rb.velocity = direction * Mathf.Max(speed, 0f);
+        try {
+            rb.velocity = direction * Mathf.Max(speed, 0f);
+           
+        }
+        catch { 
+            Debug.Log("rb.velocity in ballbounce.cs failed");
+           
+        }
     }
 }
