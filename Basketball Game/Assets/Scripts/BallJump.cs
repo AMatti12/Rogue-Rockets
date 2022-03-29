@@ -23,6 +23,10 @@ public class BallJump : MonoBehaviour
         {
             float jumpVelocity = 500f;
             rb.velocity = Vector2.up * jumpVelocity;
+
+            //transform.Translate(0,0,2);
+            
+
         }
     }
 }
