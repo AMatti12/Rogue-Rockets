@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AddScoreGameObj.cs" />
      <Compile Include="Assets\Scripts\BallBounce.cs" />
      <Compile Include="Assets\Scripts\BallJump.cs" />
      <Compile Include="Assets\Scripts\CreateNet.cs" />

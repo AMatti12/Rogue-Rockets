@@ -11,13 +11,9 @@ public class ScoreAdder : MonoBehaviour
     {
         score = 0;
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        SceneManager.LoadScene("Game Over"); //game over message when the ball hits the lose collider volume
-    }
 
     private void Update()
     {
-        GetComponent<Unityengine.UI.Text>().text = score;
+        GetComponent<UnityEngine.UI.Text>().text = score.ToString();
     }
 }
