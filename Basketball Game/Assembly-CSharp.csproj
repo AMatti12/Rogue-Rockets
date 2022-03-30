@@ -40,6 +40,7 @@
      <Compile Include="Assets\Scripts\BallBounce.cs" />
      <Compile Include="Assets\Scripts\BallJump.cs" />
      <Compile Include="Assets\Scripts\CreateNet.cs" />
+     <Compile Include="Assets\Scripts\LevelEnder.cs" />
      <Compile Include="Assets\Scripts\NetMove.cs" />
      <Compile Include="Assets\Scripts\ScoreAdder.cs" />
     <Reference Include="UnityEngine">
