@@ -36,13 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AddScoreGameObj.cs" />
      <Compile Include="Assets\Scripts\BallBounce.cs" />
      <Compile Include="Assets\Scripts\BallJump.cs" />
      <Compile Include="Assets\Scripts\CreateNet.cs" />
      <Compile Include="Assets\Scripts\LevelEnder.cs" />
      <Compile Include="Assets\Scripts\NetMove.cs" />
-     <Compile Include="Assets\Scripts\ScoreAdder.cs" />
+     <Compile Include="Assets\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\Scripts\Score\AddScoreGameObj.cs" />
+     <Compile Include="Assets\Scripts\Score\ScoreAdder.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
