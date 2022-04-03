@@ -1586,6 +1586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1436261853}
   - component: {fileID: 1436261854}
+  - component: {fileID: 1436261855}
   m_Layer: 0
   m_Name: Net
   m_TagString: Untagged
@@ -1624,6 +1625,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 200
+--- !u!114 &1436261855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436261852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bedd88de2e91a1b4b95481a82796b84e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1488827590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,6 +1857,7 @@ GameObject:
   - component: {fileID: 1847438753}
   - component: {fileID: 1847438752}
   - component: {fileID: 1847438754}
+  - component: {fileID: 1847438755}
   m_Layer: 5
   m_Name: Rim
   m_TagString: Untagged
@@ -1920,6 +1934,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 200
+--- !u!114 &1847438755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1847438750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bedd88de2e91a1b4b95481a82796b84e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1954996954
 GameObject:
   m_ObjectHideFlags: 0
