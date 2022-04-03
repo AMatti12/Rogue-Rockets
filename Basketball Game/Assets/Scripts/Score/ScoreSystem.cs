@@ -21,6 +21,11 @@ public class ScoreSystem : MonoBehaviour
         scoreText.text = currentScore.ToString();
     }
 
+    public void AddToScoreBonus()
+    {
+        currentScore += 10;
+        scoreText.text = currentScore.ToString();
+    }
     /*
     public void TriggerSparklesVFX()
     {

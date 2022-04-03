@@ -12,7 +12,7 @@ public class NetPos : MonoBehaviour
     void Start()
     { 
         Vector2 netPos = transform.position;
-        netPos.y = Random.Range(200f, 650f);
+        netPos.y = Random.Range(250f, 650f);
         transform.position = netPos;
             //Debug.Log(netPos);
 
