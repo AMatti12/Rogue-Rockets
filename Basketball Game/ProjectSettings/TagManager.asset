@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Continuity
   - Discontinuity
+  - External
+  - Internal
   layers:
   - Default
   - TransparentFX

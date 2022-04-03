@@ -10,6 +10,9 @@ public class NetMove : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        Vector2 netPos = transform.position;
+        netPos.y = Random.Range(50f, 650f);
+        transform.position = netPos;
         leftEdge = Camera.main.ScreenToWorldPoint(Vector3.zero).x - 1f;
     }
 
