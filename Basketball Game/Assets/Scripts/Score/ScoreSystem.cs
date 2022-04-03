@@ -8,6 +8,7 @@ public class ScoreSystem : MonoBehaviour
     [SerializeField] int currentScore = 0;
     [SerializeField] int pointsPerTrigger = 5;
     [SerializeField] TextMeshProUGUI scoreText;
+    //[SerializeField] GameObject scoreSparklesVFX;
 
     private void Start()
     {
@@ -19,6 +20,14 @@ public class ScoreSystem : MonoBehaviour
         currentScore += pointsPerTrigger;
         scoreText.text = currentScore.ToString();
     }
+
+    /*
+    public void TriggerSparklesVFX()
+    {
+        GameObject sparkles = Instantiate(scoreSparklesVFX, transform.position, transform.rotation);
+        Destroy(sparkles, 1f);
+    }
+    */
 
     // Update is called once per frame
     void Update()
