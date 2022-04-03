@@ -18,7 +18,7 @@ public class NetMove : MonoBehaviour
     {
         transform.position += Vector3.left * speed * Time.deltaTime;
 
-        if (transform.position.x < leftEdge - 100)
+        if (transform.position.x < leftEdge - 1000)
         {
             Destroy(gameObject);
         }

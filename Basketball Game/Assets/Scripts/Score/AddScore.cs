@@ -15,6 +15,6 @@ public class AddScore : MonoBehaviour
     public void TriggerSparklesVFX()
     {
         GameObject sparkles = Instantiate(scoreSparklesVFX, transform.position, transform.rotation);
-        Destroy(sparkles, 1f);
+        //Destroy(sparkles, 1f);
     }
 }
