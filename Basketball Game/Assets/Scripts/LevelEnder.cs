@@ -9,10 +9,10 @@ public class LevelEnder : MonoBehaviour
         
         SceneLoader sceneloader = FindObjectOfType<SceneLoader>();
         Debug.Log(sceneloader);
-        if (tag == "Discontinuity")
-        {
+        //if (tag == "Discontinuity")
+        //{
             sceneloader.LoadNextScene();
-        }
+        //}
     }
 
 }
