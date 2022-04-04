@@ -14,7 +14,7 @@ public class ScoreSystem : MonoBehaviour
     {
         scoreText.text = currentScore.ToString();
     }
-
+/*
     private void Awake()
     {
         int scoreStatusCount = FindObjectsOfType<ScoreSystem>().Length;
@@ -26,6 +26,8 @@ public class ScoreSystem : MonoBehaviour
             DontDestroyOnLoad(gameObject);
         }
     }
+
+*/
 
     public void AddToScore()
     {
