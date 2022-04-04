@@ -12,6 +12,7 @@ TagManager:
   - NotScoreCompatible
   - BoostCompatible
   - AsteroidCompatible
+  - RocketReference
   layers:
   - Default
   - TransparentFX
