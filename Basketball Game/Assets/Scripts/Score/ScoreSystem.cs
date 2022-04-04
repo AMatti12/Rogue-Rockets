@@ -15,6 +15,18 @@ public class ScoreSystem : MonoBehaviour
         scoreText.text = currentScore.ToString();
     }
 
+    private void Awake()
+    {
+        int scoreStatusCount = FindObjectsOfType<ScoreSystem>().Length;
+        if (scoreStatusCount > 1)
+        {
+            Destroy(gameObject);
+        }
+        else {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     public void AddToScore()
     {
         currentScore += pointsPerTrigger;
