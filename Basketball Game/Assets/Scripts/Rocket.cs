@@ -28,7 +28,15 @@ public class Rocket : MonoBehaviour
         GameObject boost = Instantiate(boostSparklesVFX, effectPosition1, transform.rotation);
         Destroy(col.gameObject);
         currenthealth += 1;
-        healthBar.SetHealth(currenthealth);
+        if(currenthealth > 4)
+        {
+            currenthealth = 4;
+            healthBar.SetHealth(currenthealth);
+        }
+        else
+        {
+            healthBar.SetHealth(currenthealth);
+        }
 
     }
     else if (col.tag == "ScoreCompatible")
