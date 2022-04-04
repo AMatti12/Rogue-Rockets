@@ -8,6 +8,6 @@ public class AsteroidCollision : MonoBehaviour
 
     void OnCollisionEnter2D (Collision2D variable)
     {
-        Instantiate(impactEffect, transform.position, transform.rotation);
+        //Instantiate(impactEffect, transform.position, transform.rotation);
     }
 }

@@ -10,6 +10,8 @@ TagManager:
   - Internal
   - ScoreCompatible
   - NotScoreCompatible
+  - BoostCompatible
+  - AsteroidCompatible
   layers:
   - Default
   - TransparentFX

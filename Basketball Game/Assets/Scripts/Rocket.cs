@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class Rocket : MonoBehaviour
 {
+    public int maxhealth = 4;
+    public int currenthealth;
+
+    public HealthBar healthBar;
     [SerializeField] GameObject scoreSparklesVFX;
     [SerializeField] GameObject boostSparklesVFX;
+    [SerializeField] GameObject asteroidImpactVFX;
     
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -27,6 +32,26 @@ public class Rocket : MonoBehaviour
         GameObject coin = Instantiate(scoreSparklesVFX, effectPosition2, transform.rotation);
         Destroy(col.gameObject);
     }
+    else if (col.tag == "AsteroidCompatible")
+    {
+        var effectPosition3 = col.transform.position;
+        
+        GameObject coin = Instantiate(asteroidImpactVFX, effectPosition3, transform.rotation);
+        Destroy(col.gameObject);
+        TakeDamage(1);
+    }
+    }
+
+    void Start()
+    {
+        currenthealth = maxhealth;
+        healthBar.SetMaxHealth(maxhealth);
+    }
+
+    void TakeDamage(int damage)
+    {
+        currenthealth -= damage;
+        healthBar.SetHealth(currenthealth);
     }
 
 }

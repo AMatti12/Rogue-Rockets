@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\CompatibleBehaviour.cs" />
      <Compile Include="Assets\Scripts\CreateNet.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Joystick.cs" />
      <Compile Include="Assets\Scripts\LevelEnder.cs" />
      <Compile Include="Assets\Scripts\NetMove.cs" />
