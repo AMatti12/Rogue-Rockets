@@ -13,7 +13,7 @@ public class ShakeTester : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter(Collider collision)
     {
         //if (boolean)
         //{
