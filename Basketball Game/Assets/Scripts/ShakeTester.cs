@@ -8,6 +8,8 @@ public class ShakeTester : MonoBehaviour
     public float duration = 1f;
     //public bool boolean = true;
     // Start is called before the first frame update
+//apply this to rocket
+//add camera object
     void Start()
     {
         
