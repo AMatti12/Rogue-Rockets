@@ -55,12 +55,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AsteroidCollision.cs" />
+     <Compile Include="Assets\Bullet.cs" />
+     <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\Scripts\Asteroid.cs" />
      <Compile Include="Assets\Scripts\AsteroidDeploy.cs" />
      <Compile Include="Assets\Scripts\Background.cs" />
      <Compile Include="Assets\Scripts\BallBounce.cs" />
      <Compile Include="Assets\Scripts\BallJump.cs" />
      <Compile Include="Assets\Scripts\BonusScore.cs" />
+     <Compile Include="Assets\Scripts\Boost.cs" />
+     <Compile Include="Assets\Scripts\BoostDeploy.cs" />
      <Compile Include="Assets\Scripts\CreateNet.cs" />
      <Compile Include="Assets\Scripts\Joystick.cs" />
      <Compile Include="Assets\Scripts\LevelEnder.cs" />
@@ -71,6 +76,9 @@
      <Compile Include="Assets\Scripts\Score\AddScore.cs" />
      <Compile Include="Assets\Scripts\Score\ScoreSystem.cs" />
      <Compile Include="Assets\Scripts\Scraps\JoystickShoot.cs" />
+     <Compile Include="Assets\Scripts\Shake.cs" />
+     <Compile Include="Assets\Scripts\ShakeAgain.cs" />
+     <Compile Include="Assets\Scripts\ShakeTester.cs" />
      <Compile Include="Assets\TMPro\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TMPro\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TMPro\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -106,6 +114,7 @@
      <Compile Include="Assets\TMPro\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TMPro\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\UIParticleEffects\Scripts\UIParticleSystem.cs" />
+     <Compile Include="Assets\Weapon.cs" />
      <None Include="Assets\TMPro\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TMPro\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TMPro\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

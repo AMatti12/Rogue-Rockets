@@ -6,7 +6,7 @@ public class Joystick : MonoBehaviour
 {
 
     public Transform player;
-    public float speed = 5.0f;
+    public float speed = 10.0f;
     //private bool touchStart = false;
     //private Vector2 pointA;
     //private Vector2 pointB;
