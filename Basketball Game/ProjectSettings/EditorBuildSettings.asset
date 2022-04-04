@@ -9,15 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Start Scene 1.unity
     guid: 6f0e8ee28640946cc940f4cc1819c8a4
   - enabled: 0
-    path: Assets/Scenes/S1.unity
-    guid: 11727317a8c9b4e2f90e78fd95804310
-  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/S2.unity
     guid: 7a1aaa3c33d66f842b31a78963a5e311
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Game over.unity
-    guid: b2c85ba7bd7424a67ba1b0b94647f748
+    path: Assets/Scenes/Start Scene 2.unity
+    guid: 325c30b3f26594530931e6b74acba1aa
   m_configObjects: {}
