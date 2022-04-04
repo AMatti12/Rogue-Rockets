@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Rocket : MonoBehaviour
 {
@@ -51,7 +53,12 @@ public class Rocket : MonoBehaviour
     void TakeDamage(int damage)
     {
         currenthealth -= damage;
+        if (currenthealth <= 0)
+        {
+            SceneManager.LoadScene(2);
+        }
         healthBar.SetHealth(currenthealth);
+        
     }
 
 }
