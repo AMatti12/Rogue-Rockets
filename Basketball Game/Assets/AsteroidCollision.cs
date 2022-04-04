@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class AsteroidCollision : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] public GameObject impactEffect;
 
-    // Update is called once per frame
-    void Update()
+    void OnCollisionEnter2D (Collision2D variable)
     {
-        
+        Instantiate(impactEffect, transform.position, transform.rotation);
     }
 }

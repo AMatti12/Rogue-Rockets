@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class AddScore : MonoBehaviour
 {
-    [SerializeField] GameObject scoreSparklesVFX;
+    //[SerializeField] GameObject scoreSparklesVFX;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(tag == "ScoreCompatible")
+        {
         FindObjectOfType<ScoreSystem>().AddToScore();
         TriggerSparklesVFX();
+        }
     }
 
     public void TriggerSparklesVFX()
     {
-        GameObject sparkles = Instantiate(scoreSparklesVFX, transform.position, transform.rotation);
+        if (tag == "ScoreCompatible")
+        {
+        //GameObject sparkles = Instantiate(scoreSparklesVFX, transform.position, transform.rotation);
         //Destroy(sparkles, 1f);
+        }
     }
 }

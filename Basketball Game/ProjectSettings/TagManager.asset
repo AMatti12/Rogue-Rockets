@@ -8,6 +8,8 @@ TagManager:
   - Discontinuity
   - External
   - Internal
+  - ScoreCompatible
+  - NotScoreCompatible
   layers:
   - Default
   - TransparentFX

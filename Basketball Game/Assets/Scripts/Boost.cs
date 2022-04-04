@@ -28,10 +28,17 @@ public class Boost : MonoBehaviour
         }
     }
 
+    /*
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (tag == "BoostCompatible")
+        {
         hasCollided = true;
         Destroy(this.gameObject);
+        }
     }
+
+    */
     
 }

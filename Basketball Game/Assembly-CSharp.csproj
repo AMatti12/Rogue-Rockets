@@ -58,6 +58,7 @@
      <Compile Include="Assets\AsteroidCollision.cs" />
      <Compile Include="Assets\Bullet.cs" />
      <Compile Include="Assets\Enemy.cs" />
+     <Compile Include="Assets\Rocket.cs" />
      <Compile Include="Assets\Scripts\Asteroid.cs" />
      <Compile Include="Assets\Scripts\AsteroidDeploy.cs" />
      <Compile Include="Assets\Scripts\Background.cs" />
@@ -66,6 +67,9 @@
      <Compile Include="Assets\Scripts\BonusScore.cs" />
      <Compile Include="Assets\Scripts\Boost.cs" />
      <Compile Include="Assets\Scripts\BoostDeploy.cs" />
+     <Compile Include="Assets\Scripts\Coin.cs" />
+     <Compile Include="Assets\Scripts\CoinDeploy.cs" />
+     <Compile Include="Assets\Scripts\CompatibleBehaviour.cs" />
      <Compile Include="Assets\Scripts\CreateNet.cs" />
      <Compile Include="Assets\Scripts\Joystick.cs" />
      <Compile Include="Assets\Scripts\LevelEnder.cs" />

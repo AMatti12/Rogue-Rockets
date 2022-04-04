@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 3311273617219862029}
   - component: {fileID: 6869752820607291740}
   - component: {fileID: 8862675097715521039}
+  - component: {fileID: 3248265450925934304}
   m_Layer: 0
   m_Name: Boost
-  m_TagString: Untagged
+  m_TagString: BoostCompatible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,7 +116,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -175,3 +176,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &3248265450925934304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048908099314249058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5889c3b6900b35141a0bf65a7f56cfb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreSparklesVFX: {fileID: 0}
