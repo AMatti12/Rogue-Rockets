@@ -29,14 +29,16 @@ public class Coin : MonoBehaviour
         }
     }
 
-    /*
-    private void OnTriggerEnter2D(Collider2D collision)
+    
+    private void OnColliderEnter2D(Collider2D collision)
     {
+        /*
         if (tag == "ScoreCompatible")
         {
         hasCollided = true;
         Destroy(this.gameObject);
         }
+        */
     }
-    */
+    
 }
