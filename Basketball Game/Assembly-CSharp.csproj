@@ -36,7 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Collision.cs" />
+     <Compile Include="Assets\DetectingCollisions.cs" />
      <Compile Include="Assets\Scripts\Asteroid.cs" />
      <Compile Include="Assets\Scripts\AsteroidCollision.cs" />
      <Compile Include="Assets\Scripts\AsteroidDeploy.cs" />
