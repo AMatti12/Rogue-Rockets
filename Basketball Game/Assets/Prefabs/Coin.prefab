@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7777530895043213914}
   - component: {fileID: 7777530895043213912}
   - component: {fileID: -4969577303000041862}
+  - component: {fileID: -6760324585279719659}
   m_Layer: 0
   m_Name: Coin
   m_TagString: ScoreCompatible
@@ -118,7 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05199f8f54fc51e498bbdb2ea924ae0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
   speed: 20
 --- !u!58 &7777530895043213912
 CircleCollider2D:
@@ -146,5 +146,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5889c3b6900b35141a0bf65a7f56cfb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-6760324585279719659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7777530895043213915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a283b5faa22874de88a36d1acd4d9202, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

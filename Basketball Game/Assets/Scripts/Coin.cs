@@ -29,14 +29,21 @@ public class Coin : MonoBehaviour
         }
     }
 
-    /*
+    void OnCollisionEnter(Collision col) {
+         Debug.Log("coin collision");
+    }
+
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        /*
         if (tag == "ScoreCompatible")
         {
         hasCollided = true;
         Destroy(this.gameObject);
         }
+        */
+        Debug.Log("coin collision trigger");
     }
-    */
+    
 }

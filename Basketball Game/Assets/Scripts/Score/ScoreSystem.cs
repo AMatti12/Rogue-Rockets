@@ -36,12 +36,16 @@ public class ScoreSystem : MonoBehaviour
     public void AddToScore()
     {
         currentScore += pointsPerTrigger;
-        scoreText.text = currentScore.ToString();
-        if (currentScore == 10)
+        
+        if (currentScore >= 10)
         {
             scoreText.text = 10.ToString();
             FindObjectOfType<SceneLoader>().LoadNextScene();
             //SceneManager.LoadNextScene();
+        }
+        else
+        {
+            scoreText.text = currentScore.ToString();
         }
     }
 
