@@ -118,7 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05199f8f54fc51e498bbdb2ea924ae0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 2
+  score: 0
   speed: 20
 --- !u!58 &7777530895043213912
 CircleCollider2D:
@@ -148,4 +148,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5889c3b6900b35141a0bf65a7f56cfb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreSparklesVFX: {fileID: 100000, guid: 2fcdb3ab489e50d498a80a5a2e0afb78, type: 3}

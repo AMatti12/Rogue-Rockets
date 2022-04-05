@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    [SerializeField] public int score = 0;
+    //[SerializeField] public int score = 0;
     public float speed = 10.0f;
     private Rigidbody2D rb;
     private Vector2 screenBounds;

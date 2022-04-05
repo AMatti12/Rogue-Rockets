@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class ScoreSystem : MonoBehaviour
 {
+
+
     [SerializeField] int currentScore = 0;
-    [SerializeField] int pointsPerTrigger = 5;
+    [SerializeField] int pointsPerTrigger = 2;
     [SerializeField] TextMeshProUGUI scoreText;
     //[SerializeField] GameObject scoreSparklesVFX;
 
@@ -33,6 +37,12 @@ public class ScoreSystem : MonoBehaviour
     {
         currentScore += pointsPerTrigger;
         scoreText.text = currentScore.ToString();
+        if (currentScore == 10)
+        {
+            scoreText.text = 10.ToString();
+            FindObjectOfType<SceneLoader>().LoadNextScene();
+            //SceneManager.LoadNextScene();
+        }
     }
 
     public void AddToScoreBonus()
