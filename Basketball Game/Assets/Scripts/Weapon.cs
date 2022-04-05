@@ -19,5 +19,6 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        GetComponent<AudioSource>().Play();
     }
 }

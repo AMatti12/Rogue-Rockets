@@ -12,7 +12,7 @@ public class DetectingCollisions : MonoBehaviour
         if (col.gameObject.tag == "ScoreCompatible" || col.gameObject.tag == "AsteroidCompatible" || col.gameObject.tag == "BoostCompatible" || col.gameObject.tag == "BulletCompatible")
         {
             Debug.Log("should ignore");
-            Physics2D.IgnoreCollision(col.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+            //Physics2D.IgnoreCollision(col.GetComponent<Collision2D>(), GetComponent<Collision2D>());
         }
     } 
 }
