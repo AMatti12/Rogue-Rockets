@@ -30,8 +30,9 @@ public class Coin : MonoBehaviour
     }
 
     
-    //private void OnColliderEnter2D(Collider2D collision)
-    //{
+    private void OnColliderEnter2D(Collider2D collision)
+    {
+        Debug.Log("Hit");
         /*
         if (tag == "ScoreCompatible")
         {
@@ -39,6 +40,6 @@ public class Coin : MonoBehaviour
         Destroy(this.gameObject);
         }
         */
-    //}
+    }
     
 }

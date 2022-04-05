@@ -16,7 +16,8 @@ public class Rocket : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D col)
     {
-        Debug.Log("Here");
+        Debug.Log("Rocket collision with: " + col.gameObject.name);
+        
     if (col.tag == "BoostCompatible")
     {
         var effectPosition1 = col.transform.position;
