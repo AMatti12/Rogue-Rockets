@@ -578,7 +578,7 @@ PrefabInstance:
     - target: {fileID: 8309315450645964461, guid: f6374f785e98d244d9047242938c4daa,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid (3)
+      value: Asteroid 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6374f785e98d244d9047242938c4daa, type: 3}
@@ -658,7 +658,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin (2)
+      value: Coin 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}
@@ -1146,7 +1146,7 @@ PrefabInstance:
     - target: {fileID: 8309315450645964461, guid: f6374f785e98d244d9047242938c4daa,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid
+      value: Asteroid 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6374f785e98d244d9047242938c4daa, type: 3}
@@ -1166,7 +1166,7 @@ PrefabInstance:
     - target: {fileID: 1048908099314249058, guid: b59dbdbcfdbbd384faf77874b39ab4a0,
         type: 3}
       propertyPath: m_Name
-      value: Boost
+      value: Boost 5
       objectReference: {fileID: 0}
     - target: {fileID: 8768133468114054160, guid: b59dbdbcfdbbd384faf77874b39ab4a0,
         type: 3}
@@ -1241,7 +1241,7 @@ PrefabInstance:
     - target: {fileID: 1048908099314249058, guid: b59dbdbcfdbbd384faf77874b39ab4a0,
         type: 3}
       propertyPath: m_Name
-      value: Boost (1)
+      value: Boost 1
       objectReference: {fileID: 0}
     - target: {fileID: 8768133468114054160, guid: b59dbdbcfdbbd384faf77874b39ab4a0,
         type: 3}
@@ -1365,7 +1365,7 @@ PrefabInstance:
     - target: {fileID: 8309315450645964461, guid: 3a8c6ede4ed744c448eb5d29bc3a0c6f,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid2
+      value: Asteroid 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a8c6ede4ed744c448eb5d29bc3a0c6f, type: 3}
@@ -1445,7 +1445,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin (1)
+      value: Coin 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}
@@ -2015,7 +2015,7 @@ PrefabInstance:
     - target: {fileID: 8309315450645964461, guid: ad35fc3b531114f8094760726ecb4d11,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid3
+      value: Asteroid 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad35fc3b531114f8094760726ecb4d11, type: 3}
@@ -2135,7 +2135,7 @@ PrefabInstance:
     - target: {fileID: 1048908099314249058, guid: b59dbdbcfdbbd384faf77874b39ab4a0,
         type: 3}
       propertyPath: m_Name
-      value: Boost (2)
+      value: Boost 2
       objectReference: {fileID: 0}
     - target: {fileID: 8768133468114054160, guid: b59dbdbcfdbbd384faf77874b39ab4a0,
         type: 3}
@@ -2264,7 +2264,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin (4)
+      value: Coin 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}
@@ -7340,6 +7340,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8717151071717202487, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579212634635865723, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579212634635865724, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7579212634635865726, guid: d426e2f034041464ba9853da8bf114dd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7395,6 +7410,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7579212634635865727, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 7579212634635865728, guid: d426e2f034041464ba9853da8bf114dd,
         type: 3}
       propertyPath: player
@@ -7404,6 +7424,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693377872127590165, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d426e2f034041464ba9853da8bf114dd, type: 3}
@@ -7556,7 +7581,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin (3)
+      value: Coin 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}
@@ -12324,7 +12349,7 @@ PrefabInstance:
     - target: {fileID: 1048908099314249058, guid: b59dbdbcfdbbd384faf77874b39ab4a0,
         type: 3}
       propertyPath: m_Name
-      value: Boost (3)
+      value: Boost 4
       objectReference: {fileID: 0}
     - target: {fileID: 8768133468114054160, guid: b59dbdbcfdbbd384faf77874b39ab4a0,
         type: 3}
@@ -17434,7 +17459,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin
+      value: Coin 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}

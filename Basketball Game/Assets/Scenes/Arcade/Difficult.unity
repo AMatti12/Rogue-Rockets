@@ -252,7 +252,7 @@ PrefabInstance:
     - target: {fileID: 8309315450645964461, guid: f6374f785e98d244d9047242938c4daa,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid (1)
+      value: Asteroid 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6374f785e98d244d9047242938c4daa, type: 3}
@@ -275,12 +275,27 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8309315450645964461, guid: 448bfecb98ea94dd98a08c478966dae7,
         type: 3}
+    - target: {fileID: -8717151071717202487, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7579212634635865723, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7579212634635865724, guid: d426e2f034041464ba9853da8bf114dd,
         type: 3}
       propertyPath: asteroidPrefab
       value: 
       objectReference: {fileID: 8309315450645964461, guid: ad35fc3b531114f8094760726ecb4d11,
         type: 3}
+    - target: {fileID: 7579212634635865724, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7579212634635865726, guid: d426e2f034041464ba9853da8bf114dd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -336,6 +351,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7579212634635865727, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7579212634635865728, guid: d426e2f034041464ba9853da8bf114dd,
         type: 3}
       propertyPath: player
@@ -352,6 +372,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8309315450645964461, guid: d32ba89108ed544c69590a7c5c8b3d22,
         type: 3}
+    - target: {fileID: 8693377872127590165, guid: d426e2f034041464ba9853da8bf114dd,
+        type: 3}
+      propertyPath: respawnTime
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d426e2f034041464ba9853da8bf114dd, type: 3}
 --- !u!1001 &222354928
@@ -829,7 +854,7 @@ PrefabInstance:
     - target: {fileID: 8309315450645964461, guid: f6374f785e98d244d9047242938c4daa,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid (3)
+      value: Asteroid 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6374f785e98d244d9047242938c4daa, type: 3}
@@ -909,7 +934,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin (2)
+      value: Coin 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}
@@ -1392,7 +1417,7 @@ PrefabInstance:
     - target: {fileID: 8309315450645964461, guid: 448bfecb98ea94dd98a08c478966dae7,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid4
+      value: Asteroid 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 448bfecb98ea94dd98a08c478966dae7, type: 3}
@@ -1472,7 +1497,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin (1)
+      value: Coin 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}
@@ -2036,7 +2061,7 @@ PrefabInstance:
     - target: {fileID: 8309315450645964461, guid: d32ba89108ed544c69590a7c5c8b3d22,
         type: 3}
       propertyPath: m_Name
-      value: Asteroid5
+      value: Asteroid 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d32ba89108ed544c69590a7c5c8b3d22, type: 3}
@@ -2216,7 +2241,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin (4)
+      value: Coin 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}
@@ -7434,7 +7459,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin (3)
+      value: Coin 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}
@@ -17119,7 +17144,7 @@ PrefabInstance:
     - target: {fileID: 7777530895043213915, guid: 076a1c8fd84bf504ab0356740cad21cc,
         type: 3}
       propertyPath: m_Name
-      value: Coin
+      value: Coin 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 076a1c8fd84bf504ab0356740cad21cc, type: 3}
