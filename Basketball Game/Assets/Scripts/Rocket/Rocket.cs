@@ -114,7 +114,7 @@ if(Input.GetMouseButtonDown(0))
         currenthealth -= damage; //subtract damage from current health
         if (currenthealth <= 0) //if the rocket is dead
         {
-            SceneManager.LoadScene(2); //load the following scene
+            SceneManager.LoadScene(5); //load the following scene
         }
         healthBar.SetHealth(currenthealth); //chaneg current health value
         

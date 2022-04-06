@@ -46,6 +46,7 @@ public class ShakeAgain : MonoBehaviour
         if (_pendingShakeDuration > 0 && !_isShaking)
         {
             StartCoroutine(DoShake());
+            
             //GameObject sparkles = Instantiate(scoreSparklesVFX, transform.position, transform.rotation);
     //Destroy(sparkles, 1f);
 

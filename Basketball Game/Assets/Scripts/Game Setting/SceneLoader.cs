@@ -25,25 +25,25 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadEasyScene()
    {
-       SceneManager.LoadScene(3); //load first scene in build settings sequence
+       SceneManager.LoadScene(2); //load first scene in build settings sequence
        //FindObjectOfType<GameStatus>().ResetGame();
    }
 
    public void LoadNormalScene()
    {
-       SceneManager.LoadScene(4); //load first scene in build settings sequence
+       SceneManager.LoadScene(3); //load first scene in build settings sequence
        //FindObjectOfType<GameStatus>().ResetGame();
    }
 
    public void LoadDifficultScene()
    {
-       SceneManager.LoadScene(5); //load first scene in build settings sequence
+       SceneManager.LoadScene(4); //load first scene in build settings sequence
        //FindObjectOfType<GameStatus>().ResetGame();
    }
 
    public void LoadEndScene()
    {
-       SceneManager.LoadScene(6); //load first scene in build settings sequence
+       SceneManager.LoadScene(5); //load first scene in build settings sequence
        //FindObjectOfType<GameStatus>().ResetGame();
    }
 }

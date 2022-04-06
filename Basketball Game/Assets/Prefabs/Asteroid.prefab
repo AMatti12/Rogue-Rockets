@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8309315450645964449}
   - component: {fileID: -2950386394055940923}
   - component: {fileID: 7782799601084433416}
+  - component: {fileID: 6991477767482802823}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: AsteroidCompatible
@@ -251,5 +252,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4f0701e32773b14fb8c2cc42796df2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  asteroidAudio: {fileID: 0}
   health: 100
   deathEffect: {fileID: 100000, guid: 52a62631138304d44a9a9c0d92a1c3f6, type: 3}
+--- !u!114 &6991477767482802823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8309315450645964461}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e604f2ffaf8c8884ca69fbc85a7d7cbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Shaker: {fileID: 7579212634635865725, guid: d426e2f034041464ba9853da8bf114dd, type: 3}
+  duration: 0.000001

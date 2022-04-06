@@ -11,19 +11,25 @@ public class ShakeTester : MonoBehaviour
 //apply this to rocket
 //add camera object
 
-    private void OnTriggerEnter(Collider collision) //requires trigger
+    //private void OnCollisionEnter2D(Collision2D collision) //requires trigger
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         //if (boolean)
         //{
         Shaker.Shake(duration);
+        //Destroy(gameObject);
+        
         //}
     }
 
     // Update is called once per frame
+    void Update()
+    {
         //if (Input.GetKeyDown(KeyCode.Space))
         //{
-        //    Shaker.Shake(duration);
+            //Shaker.Shake(duration);
         //}
+    }
         
 
 }
