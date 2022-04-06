@@ -55,7 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FinalScoreText.cs" />
      <Compile Include="Assets\Scripts\Asteroid\Asteroid.cs" />
      <Compile Include="Assets\Scripts\Asteroid\AsteroidAudio.cs" />
      <Compile Include="Assets\Scripts\Asteroid\AsteroidDeploy.cs" />
@@ -75,6 +74,7 @@
      <Compile Include="Assets\Scripts\Rocket\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Rocket\Rocket.cs" />
      <Compile Include="Assets\Scripts\Rocket\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Score\LookforScore.cs" />
      <Compile Include="Assets\Scripts\Score\ScoreSystem.cs" />
      <Compile Include="Assets\Scripts\Shaking Features\ShakeAgain.cs" />
      <Compile Include="Assets\Scripts\Shaking Features\ShakeTester.cs" />

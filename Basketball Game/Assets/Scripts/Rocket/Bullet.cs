@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] public int timesHit = 0;
     [SerializeField] public int maxHits = 2;
     //[SerializeField] Sprite[] hitSprites;
+
     public int damage = 50; //it does 50 damage to asteroids ONLY
     public Rigidbody2D rb;
     public GameObject impactEffect; //loads bullet particle affect
@@ -19,6 +20,8 @@ public class Bullet : MonoBehaviour
 
     private void ShowNextHitSprite()
     {
+        //int spriteIndex = 
+        //GetComponent<SpriteRenderer>().sprite = hitSprites[0];
         //var sprite = FindObjectOfType<Asteroids
     }
 
@@ -34,6 +37,7 @@ public class Bullet : MonoBehaviour
         {
 
             enemy.TakeDamage(damage); //the enemy takes damage
+            //ShowNextHitSprite();
         }
 
         Instantiate(impactEffect, transform.position, transform.rotation); //instantiate particle effect for bullet

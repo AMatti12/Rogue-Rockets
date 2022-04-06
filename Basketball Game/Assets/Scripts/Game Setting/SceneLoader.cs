@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; //required to access various scene functions and properties
@@ -43,7 +43,9 @@ public class SceneLoader : MonoBehaviour
 
    public void LoadEndScene()
    {
-       SceneManager.LoadScene(5); //load first scene in build settings sequence
+        SceneManager.LoadScene(5);
+        
+        //load first scene in build settings sequence
        //FindObjectOfType<GameStatus>().ResetGame();
    }
 }

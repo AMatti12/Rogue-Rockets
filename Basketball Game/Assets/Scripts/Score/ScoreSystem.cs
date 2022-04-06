@@ -12,13 +12,13 @@ public class ScoreSystem : MonoBehaviour
     [SerializeField] public int currentScore = 0; //current score is 0
     [SerializeField] int pointsPerTrigger = 2; //2 points are given per trigger
     [SerializeField] TextMeshProUGUI scoreText;
-    FinalScoreText finalScore;
+    //FinalScoreText finalScore;
     //[SerializeField] GameObject scoreSparklesVFX;
     //public void LoadGame (string input)
    // {
         //SceneManager.LoadScene(2);
     //}
-/*
+
     private void Awake()
     {
         int scoreSystemCount = FindObjectsOfType<ScoreSystem>().Length;
@@ -32,7 +32,7 @@ public class ScoreSystem : MonoBehaviour
         }
     }
 
-*/
+
 
     private void Start()
     {
@@ -56,7 +56,16 @@ public class ScoreSystem : MonoBehaviour
     public void AddToScore()
     {
         currentScore += pointsPerTrigger; //award points to user
-        scoreText.text = currentScore.ToString(); //change Ui text to show the user
+        scoreText.text = currentScore.ToString();
+
+
+        //Scene scene = SceneManager.GetActiveScene();
+        //if (scene.name == "Game Over Scene") {
+           // int currentScore = GameObject.Find("Score System").GetComponent<ScoreSystem>().currentScore;
+           // scoreText.text = currentScore.ToString();
+        //}
+         //change Ui text to show the user
+        //Debug.Log(currentScore);
         //if (currentScore >= 10) //if the user exceeds 10
         //{
             //scoreText.text = "10"; //output
