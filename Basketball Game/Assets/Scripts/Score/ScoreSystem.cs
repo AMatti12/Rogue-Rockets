@@ -90,6 +90,11 @@ public class ScoreSystem : MonoBehaviour
     }
     */
 
+    public string returnScore() {
+        string currentScoreAsString = currentScore.ToString();
+        return currentScoreAsString;
+    }
+
     // Update is called once per frame
     void Update()
     {
