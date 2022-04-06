@@ -34,6 +34,7 @@ public class ShakeAgain : MonoBehaviour
         if (duration > 0)
         {
             _pendingShakeDuration += duration;
+            Debug.Log(_pendingShakeDuration);
             //GetComponent<AudioSource>().Play(clip2);
         //gameObject.GetComponent.<AudioSource>().clip = clip2;
         }
@@ -68,7 +69,8 @@ public class ShakeAgain : MonoBehaviour
         */
 
         var startTime = Time.realtimeSinceStartup;
-        while(Time.realtimeSinceStartup < startTime + _pendingShakeDuration)
+        //while(Time.realtimeSinceStartup < startTime + _pendingShakeDuration)
+        while(Time.realtimeSinceStartup < startTime + 0.5)
         {
             //Destroy(this.gameObject);
             var randomPoint = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), _initialPos.z);

@@ -262,10 +262,10 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8309315450645964461}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e604f2ffaf8c8884ca69fbc85a7d7cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Shaker: {fileID: 7579212634635865725, guid: d426e2f034041464ba9853da8bf114dd, type: 3}
-  duration: 0.000001
+  duration: 0.0001

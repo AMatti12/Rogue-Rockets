@@ -16,7 +16,10 @@ public class ShakeTester : MonoBehaviour
     {
         //if (boolean)
         //{
+        if (tag == "AsteroidCompatible")
+        {
         Shaker.Shake(duration);
+        }
         //Destroy(gameObject);
         
         //}

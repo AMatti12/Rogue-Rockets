@@ -194,6 +194,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1498873014}
     m_Modifications:
+    - target: {fileID: 6991477767482802823, guid: f6374f785e98d244d9047242938c4daa,
+        type: 3}
+      propertyPath: Shaker
+      value: 
+      objectReference: {fileID: 120878479}
     - target: {fileID: 8309315450645964450, guid: f6374f785e98d244d9047242938c4daa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -379,6 +384,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d426e2f034041464ba9853da8bf114dd, type: 3}
+--- !u!114 &120878479 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7579212634635865725, guid: d426e2f034041464ba9853da8bf114dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 120878478}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16c43c4bacdea3408874ede3b80bca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &222354928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -786,6 +803,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1498873014}
     m_Modifications:
+    - target: {fileID: 6991477767482802823, guid: f6374f785e98d244d9047242938c4daa,
+        type: 3}
+      propertyPath: Shaker
+      value: 
+      objectReference: {fileID: 120878479}
     - target: {fileID: 8309315450645964450, guid: f6374f785e98d244d9047242938c4daa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1359,6 +1381,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1498873014}
     m_Modifications:
+    - target: {fileID: 6991477767482802823, guid: 448bfecb98ea94dd98a08c478966dae7,
+        type: 3}
+      propertyPath: Shaker
+      value: 
+      objectReference: {fileID: 120878479}
     - target: {fileID: 8309315450645964450, guid: 448bfecb98ea94dd98a08c478966dae7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2003,6 +2030,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1498873014}
     m_Modifications:
+    - target: {fileID: 6991477767482802823, guid: d32ba89108ed544c69590a7c5c8b3d22,
+        type: 3}
+      propertyPath: Shaker
+      value: 
+      objectReference: {fileID: 120878479}
     - target: {fileID: 8309315450645964450, guid: d32ba89108ed544c69590a7c5c8b3d22,
         type: 3}
       propertyPath: m_LocalPosition.x
