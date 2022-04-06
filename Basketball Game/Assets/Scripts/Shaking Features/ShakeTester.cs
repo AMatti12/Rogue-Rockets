@@ -1,0 +1,29 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ShakeTester : MonoBehaviour
+{
+    public ShakeAgain Shaker;
+    [SerializeField] public float duration = 1f;
+    //public bool boolean = true;
+    // Start is called before the first frame update
+//apply this to rocket
+//add camera object
+
+    private void OnTriggerEnter(Collider collision) //requires trigger
+    {
+        //if (boolean)
+        //{
+        Shaker.Shake(duration);
+        //}
+    }
+
+    // Update is called once per frame
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    Shaker.Shake(duration);
+        //}
+        
+
+}
