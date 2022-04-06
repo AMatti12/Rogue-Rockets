@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 7579212634635865723}
   - component: {fileID: 7579212634635865724}
   - component: {fileID: 7579212634635865727}
+  - component: {fileID: -8717151071717202487}
+  - component: {fileID: 8693377872127590165}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -159,3 +161,33 @@ MonoBehaviour:
   boostPrefab: {fileID: 1048908099314249058, guid: b59dbdbcfdbbd384faf77874b39ab4a0,
     type: 3}
   respawnTime: 0.4
+--- !u!114 &-8717151071717202487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7579212634635865730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f7592a43d6928479c7b5eaf6218bf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidPrefab: {fileID: 8309315450645964461, guid: 3a8c6ede4ed744c448eb5d29bc3a0c6f,
+    type: 3}
+  respawnTime: 3
+--- !u!114 &8693377872127590165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7579212634635865730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f7592a43d6928479c7b5eaf6218bf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asteroidPrefab: {fileID: 8309315450645964461, guid: ad35fc3b531114f8094760726ecb4d11,
+    type: 3}
+  respawnTime: 3
