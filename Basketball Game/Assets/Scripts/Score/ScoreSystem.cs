@@ -9,10 +9,30 @@ public class ScoreSystem : MonoBehaviour
 {
 
 
-    [SerializeField] int currentScore = 0; //current score is 0
+    [SerializeField] public int currentScore = 0; //current score is 0
     [SerializeField] int pointsPerTrigger = 2; //2 points are given per trigger
     [SerializeField] TextMeshProUGUI scoreText;
+    FinalScoreText finalScore;
     //[SerializeField] GameObject scoreSparklesVFX;
+    //public void LoadGame (string input)
+   // {
+        //SceneManager.LoadScene(2);
+    //}
+/*
+    private void Awake()
+    {
+        int scoreSystemCount = FindObjectsOfType<ScoreSystem>().Length;
+        if (scoreSystemCount > 1)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
+*/
 
     private void Start()
     {
@@ -43,6 +63,9 @@ public class ScoreSystem : MonoBehaviour
             //FindObjectOfType<SceneLoader>().LoadNextScene(); //load next scene
             //SceneManager.LoadNextScene();
         //}
+        //return currentScore;
+        
+        //finalScore.GetPoints();
     }
 
     public void AddToScoreBonus()

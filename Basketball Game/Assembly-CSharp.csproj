@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FinalScoreText.cs" />
      <Compile Include="Assets\Scripts\Asteroid\Asteroid.cs" />
      <Compile Include="Assets\Scripts\Asteroid\AsteroidAudio.cs" />
      <Compile Include="Assets\Scripts\Asteroid\AsteroidDeploy.cs" />
