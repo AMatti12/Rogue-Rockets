@@ -10,9 +10,19 @@ public class Rocket : MonoBehaviour
     public int currenthealth;
 
     public HealthBar healthBar;
+    public CoinAudio coinAudio;
+
     [SerializeField] GameObject scoreSparklesVFX;
     [SerializeField] GameObject boostSparklesVFX;
     [SerializeField] GameObject asteroidImpactVFX;
+
+    //public AudioClip clip1;
+    //public AudioClip clip2;
+    //public AudioClip clip3;
+
+    //public AudioSource sourceAsteroid;
+    //public AudioSource sourceCoin;
+    //public AudioSource sourceBoost;
     
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -26,6 +36,8 @@ public class Rocket : MonoBehaviour
         Debug.Log(effectPosition1);
         //col.transform.position.z = -4;
         //Debug.Log(transform.position);
+        //GetComponent<AudioSource>().Play(clip1);
+        //gameObject.GetComponent.<AudioSource>().clip = clip1;
         GameObject boost = Instantiate(boostSparklesVFX, effectPosition1, transform.rotation);
         Destroy(col.gameObject);
         currenthealth += 1;
@@ -44,6 +56,11 @@ public class Rocket : MonoBehaviour
     {
         var effectPosition2 = col.transform.position;
         GameObject coin = Instantiate(scoreSparklesVFX, effectPosition2, transform.rotation);
+        //GetComponent<AudioSource>().Play();
+        //coinAudio.PlayAudio();
+        FindObjectOfType<ScoreSystem>().AddToScore();
+        //AudioSource.PlayOneShot (clip1, 1.0f);
+        Debug.Log(col);
         Destroy(col.gameObject);
     }
     else if (col.tag == "AsteroidCompatible")
@@ -60,6 +77,9 @@ public class Rocket : MonoBehaviour
     {
         currenthealth = maxhealth;
         healthBar.SetMaxHealth(maxhealth);
+        //sourceAsteroid = gameObject.AddComponent<AudioSource>();
+        //sourceBoost = gameObject.AddComponent<AudioSource>();
+        //sourceCoin = gameObject.AddComponent<AudioSource>();
     }
 
     void TakeDamage(int damage)

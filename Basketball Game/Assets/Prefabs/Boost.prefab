@@ -188,4 +188,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5889c3b6900b35141a0bf65a7f56cfb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreSparklesVFX: {fileID: 0}

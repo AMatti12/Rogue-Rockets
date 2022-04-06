@@ -10,8 +10,11 @@ public class AddScore : MonoBehaviour
     {
         if(tag == "ScoreCompatible")
         {
-        FindObjectOfType<ScoreSystem>().AddToScore();
-        GetComponent<AudioSource>().Play();
+        
+        
+        
+        //FindObjectOfType<ScoreSystem>().AddToScore();
+        //GetComponent<AudioSource>().Play();
         TriggerSparklesVFX();
         }
     }

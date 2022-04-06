@@ -37,9 +37,9 @@ public class ScoreSystem : MonoBehaviour
     {
         currentScore += pointsPerTrigger;
         scoreText.text = currentScore.ToString();
-        if (currentScore == 10)
+        if (currentScore >= 10)
         {
-            scoreText.text = 10.ToString();
+            scoreText.text = "10";
             FindObjectOfType<SceneLoader>().LoadNextScene();
             //SceneManager.LoadNextScene();
         }
@@ -47,8 +47,8 @@ public class ScoreSystem : MonoBehaviour
 
     public void AddToScoreBonus()
     {
-        currentScore += 10;
-        scoreText.text = currentScore.ToString();
+        //currentScore += 10;
+        //scoreText.text = currentScore.ToString();
     }
     /*
     public void TriggerSparklesVFX()
