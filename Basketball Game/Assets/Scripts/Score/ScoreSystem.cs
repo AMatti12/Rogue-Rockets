@@ -37,6 +37,8 @@ public class ScoreSystem : MonoBehaviour
     private void Start()
     {
         scoreText.text = currentScore.ToString();
+        GetComponent<AudioSource>().Play();
+        
     }
 /*
     private void Awake()
