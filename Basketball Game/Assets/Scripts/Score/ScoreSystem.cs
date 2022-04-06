@@ -57,6 +57,7 @@ public class ScoreSystem : MonoBehaviour
 
     public void AddToScore()
     {
+        
         currentScore += pointsPerTrigger; //award points to user
         scoreText.text = currentScore.ToString();
 
@@ -100,6 +101,15 @@ public class ScoreSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "Start Scene") {
+            Destroy(gameObject);
+        }
+        else if (scene.name == "Game Over Scene") {
+           Destroy(gameObject);
+        }
+        
         
     }
 }

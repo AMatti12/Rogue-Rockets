@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScore: 0
   pointsPerTrigger: 2
-  scoreText: {fileID: 457891377832857209, guid: 9f23abe6d26dcbe4ab4e089ecf4d2617,
+  scoreText: {fileID: 8530209546706759653, guid: 5a86a6de89b8c42338ad3cf8bc861b78,
     type: 3}
 --- !u!82 &-2243367120288165487
 AudioSource:
