@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public AsteroidAudio asteroidAudio;
     [SerializeField] public int health = 100; //the asteroids health will be set at 100
 
     public GameObject deathEffect; //calling on the asteroid particle affect
@@ -22,6 +23,8 @@ public class Enemy : MonoBehaviour
     void Die()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity); //creates particle effect
-        Destroy(gameObject); //destroys asteroid/enemy 
+        Destroy(gameObject); //destroys asteroid/enemy
+        asteroidAudio = FindObjectOfType<AsteroidAudio>();
+        asteroidAudio.PlayAudio(); //find and play corresponding audio
     }
 }

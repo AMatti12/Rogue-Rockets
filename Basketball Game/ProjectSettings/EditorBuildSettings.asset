@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/Levels/L1.unity
+    path: Assets/Scenes/Arcade/Arcade.unity
     guid: 7a1aaa3c33d66f842b31a78963a5e311
   - enabled: 0
     path: Assets/Scenes/Passing Screens/Level Passed 1.unity
     guid: d2a99ab284cbf4b669ead77443d8e49f
   - enabled: 0
-    path: Assets/Scenes/Levels/L2.unity
+    path: Assets/Scenes/Arcade/L2.unity
     guid: 4bb0807fecf5b514bb2cf088e08aa508
   - enabled: 0
     path: 

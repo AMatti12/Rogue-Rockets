@@ -37,12 +37,12 @@ public class ScoreSystem : MonoBehaviour
     {
         currentScore += pointsPerTrigger; //award points to user
         scoreText.text = currentScore.ToString(); //change Ui text to show the user
-        if (currentScore >= 10) //if the user exceeds 10
-        {
-            scoreText.text = "10"; //output
-            FindObjectOfType<SceneLoader>().LoadNextScene(); //load next scene
+        //if (currentScore >= 10) //if the user exceeds 10
+        //{
+            //scoreText.text = "10"; //output
+            //FindObjectOfType<SceneLoader>().LoadNextScene(); //load next scene
             //SceneManager.LoadNextScene();
-        }
+        //}
     }
 
     public void AddToScoreBonus()
