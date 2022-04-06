@@ -11,6 +11,8 @@ public class Rocket : MonoBehaviour
 
     public HealthBar healthBar;
     public CoinAudio coinAudio;
+    public BoostAudio boostAudio;
+    public AsteroidAudio asteroidAudio;
 
     [SerializeField] GameObject scoreSparklesVFX;
     [SerializeField] GameObject boostSparklesVFX;
@@ -39,6 +41,8 @@ public class Rocket : MonoBehaviour
         //GetComponent<AudioSource>().Play(clip1);
         //gameObject.GetComponent.<AudioSource>().clip = clip1;
         GameObject boost = Instantiate(boostSparklesVFX, effectPosition1, transform.rotation);
+        boostAudio = FindObjectOfType<BoostAudio>();
+        boostAudio.PlayAudio();
         Destroy(col.gameObject);
         currenthealth += 1;
         if(currenthealth > 4)
@@ -57,7 +61,10 @@ public class Rocket : MonoBehaviour
         var effectPosition2 = col.transform.position;
         GameObject coin = Instantiate(scoreSparklesVFX, effectPosition2, transform.rotation);
         //GetComponent<AudioSource>().Play();
-        //coinAudio.PlayAudio();
+
+        coinAudio = FindObjectOfType<CoinAudio>();
+        coinAudio.PlayAudio();
+
         FindObjectOfType<ScoreSystem>().AddToScore();
         //AudioSource.PlayOneShot (clip1, 1.0f);
         Debug.Log(col);
@@ -68,6 +75,8 @@ public class Rocket : MonoBehaviour
         var effectPosition3 = col.transform.position;
         
         GameObject coin = Instantiate(asteroidImpactVFX, effectPosition3, transform.rotation);
+        asteroidAudio = FindObjectOfType<AsteroidAudio>();
+        asteroidAudio.PlayAudio();
         Destroy(col.gameObject);
         TakeDamage(1);
     }
