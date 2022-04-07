@@ -54,6 +54,7 @@ if(Input.GetMouseButtonDown(0))
         //GetComponent<AudioSource>().Play(clip2);
         //gameObject.GetComponent.<AudioSource>().clip = clip2;
         Destroy(col.gameObject);
+        Debug.Log("DESTROYED BOOST");
         currenthealth += 1;
         if(currenthealth > 4) //cant have health greater than 4
         {
@@ -79,6 +80,7 @@ if(Input.GetMouseButtonDown(0))
         //AudioSource.PlayOneShot (clip1, 1.0f);
         Debug.Log(col);
         Destroy(col.gameObject);
+        Debug.Log("DESTROYED SCORE");
     }
     else if (col.tag == "AsteroidCompatible") //pertains to asteroid
     {
@@ -93,6 +95,7 @@ if(Input.GetMouseButtonDown(0))
         asteroidAudio = FindObjectOfType<AsteroidAudio>();
         asteroidAudio.PlayAudio();
         Destroy(col.gameObject);
+        Debug.Log("DESTROYED ASTEROID");
         TakeDamage(1);
         //asteroidAudio = FindObjectOfType<AsteroidAudio>();
         //asteroidAudio.PlayAudio();

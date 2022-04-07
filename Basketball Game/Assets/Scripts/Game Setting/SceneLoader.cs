@@ -27,18 +27,21 @@ public class SceneLoader : MonoBehaviour
    {
        SceneManager.LoadScene(2); //load first scene in build settings sequence
        //FindObjectOfType<GameStatus>().ResetGame();
+       Debug.Log("EASY");
    }
 
    public void LoadNormalScene()
    {
        SceneManager.LoadScene(3); //load first scene in build settings sequence
        //FindObjectOfType<GameStatus>().ResetGame();
+       Debug.Log("NORMAL");
    }
 
    public void LoadDifficultScene()
    {
        SceneManager.LoadScene(4); //load first scene in build settings sequence
        //FindObjectOfType<GameStatus>().ResetGame();
+       Debug.Log("DIFFICULT");
    }
 
    public void LoadEndScene()
