@@ -30,7 +30,7 @@
 ## If you fell behind schedule, why? What would you do differently next time?
 
 ### I fell a little bit short of delivering the game that I had planned to design. There were still many cool functions I could have added but didn't have the time to. A part of the reason I fell behind was because I changed my game design from a basketball bounce game to a rocket- space-themed game. I had to change my overall planning and goals completely.
-### In the future, I will ensure that I am less indecisive about game designs and will work more efficiently. It is also important to point out that I have been occupied with math work de to my diploma, so working in advance will be strongly considered when making future games.
+### In the future, I will ensure that I am less indecisive about game designs and will work more efficiently and quicker with knowledge and experienced gained from this project. It is also important to point out that I have been occupied with math work due to my diploma, so working in advance will be strongly considered when making future games.
 
 
 ## What problems did you run into that surprised you and how did you overcome them?
@@ -40,4 +40,4 @@
 
 ## If you were doing it this app all over again, what do you wish you knew that you didn't?
 
-### I wish I had known more aboutthe use of coroutines. I used coroutines multiple times in order to effectiverly carry out many tasks throughout several frames. I also wish that I would have known more about game layers and differentiating between the canvas and camera, as I wasted alot of time trying to sort layers when I could have just used the camera instead. 
+### I wish I had known more aboutthe use of coroutines. I used coroutines multiple times in order to effectively carry out many tasks throughout several frames. I also wish that I would have known more about game layers and differentiating between the canvas and camera, as I wasted alot of time trying to sort layers when I could have just used the camera instead. 
